@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Leandro Di Dio</title>
+    <link rel="shortcut icon" href="img/logo.ico" class="logoico"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" >
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./fontawesome-free-5.12.0-web/css/all.min.css"/>
+    <!-- styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/thumnail.css" />
+    
+  </head>
+  <body>
+    
+    <!-- header -->
+    <div id ="inicio" > <!-- id = inicio -->
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+            <!-- nav header -->
+            <div class="nav-header">
+              <img src="./img/logo.svg" alt="logo" class="logo">
+              <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+            <!-- links -->
+            <div class="links-container">
+              <ul class="links">
+                <li>
+                  <a href="#inicio" class="scroll-link">Inicio</a>
+                </li>
+                <li>
+                  <a href="#skills" class="scroll-link">Skills</a>
+                </li>
+                <li>
+                  <a href="#proyectos" class="scroll-link">Proyectos</a>
+                </li>
+                <li>
+                  <a href="#contacto" class="scroll-link">Contacto</a>
+                </li>
+              </ul> 
+            </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <img src="./img/logo.svg" alt="logo" class="logoPpal">
+          <h3>Leandro Di Dio</h3>
+          <p>Soy Analista de Sistemas y Programador Full Stack, sé programar en PHP y MySQL, 
+            así como también en Javascript. Me interesa poder mejorar mis habilidades en programación y aprender 
+          nuevas tecnologías.</p>
+        </div>
+      </div>
+    </div>
+
+      <!-- Skills -->
+    <div class="container-fluid">
+      <div id="skills" class="row align-items-start">  
+        <div class="col-lg-12 col-md-10">
+          <div class="title">
+            <h2>Sk<span>il</span>ls</h2>
+          </div><br>
+          <!-- Medio  -->
+          <div class="jumbotron" style="width:80%" id="texto">
+            <div class="media"  style="width:80%" >
+              <i class="fa fa-laptop" aria-hidden="true" id="laptop"></i>
+              <div class="media-body" >
+                <h3>Mis Skills</h3>
+                <p><strong>HTML 5 y CSS | Bootstrap 4 | Javascript: ES6 y DOM | PHP y MySQL: POO y MVC | SQL y Diseño de Base de Datos 
+                  Relacionales | Lenguaje C: Alto nivel y bajo nivel. </strong></p>
+                <p><strong>Buena manejo de Git y Github | Experiencia en Sistemas Operativos: GNU/Linux y Windows | 
+                  Inglés: Nivel B2 Intermedio/Avanzado | Portugués: Nivel intermedio.</strong>
+                </p>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyectos -->
+      <div id="proyectos" class="row align-items-start">
+        <div class="col-lg-12 col-md-8 ">
+          <div class="title">
+            <h2>Pro<span>yec</span>tos</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 ">
+              <div class="hovereffect">
+                    <img class="img-responsive" src="./img/fotos/caba.png" alt="">
+                    <div class="overlay">
+                      <h2>Sitio Web - CABA</h2>
+                      <p>
+                        Sitio Web del Circulo de Ajedrez de Bahía Blanca, desarollado en Javascript, Bootstrap 4, PHP y MySQL.<br>
+                        <a href="https://github.com/dleo86/ProyectoCABB" target="_blank">Link Aquí</a>
+                      </p>
+                    </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 ">
+              <div class="hovereffect">
+                  <img class="img-responsive" src="./img/fotos/calendario.png" alt="">
+                  <div class="overlay">
+                    <h2>Calendario AJAX</h2>
+                    <p>
+                      Calendario desarrollado en AJAX para la organización y control de horarios<br>
+                      <a href="https://github.com/dleo86/calendario" target="_blank">Link Aquí</a>
+                    </p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 ">
+              <div class="hovereffect">
+                  <img class="img-responsive" src="./img/fotos/clinic.png" alt="">
+                  <div class="overlay">
+                    <h2>Clinic</h2>
+                    <p>
+                      Software para consultorio médico, desarollado en Javascript, PHP y MySQL.<br>
+                      <a href="https://github.com/dleo86/Clinic" target="_blank">Link Aquí</a>
+                    </p>
+                  </div>
+              </div>
+            </div>
+          </div><br>
+          <div class="row">
+            <div class="col-lg-4 col-md-4">
+              <div class="hovereffect">
+                    <img class="img-responsive" src="./img/fotos/grafico.png" alt="">
+                    <div class="overlay">
+                      <h2>Sitio Web - Diseñador Gráfico</h2>
+                      <p>
+                        Sitio Web para el diseñador gráfico Sebastian Siraco. Desarrollado en HTML, CSS y Javascript.<br>
+                        <a href="https://dleo86.github.io/Dise-ador/" target="_blank">Link Aquí</a>
+                      </p>
+                    </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="hovereffect">
+                  <img class="img-responsive" src="./img/fotos/irel.png" alt="">
+                  <div class="overlay">
+                    <h2>IREL E</h2>
+                    <p>
+                      Software para el estacionamiento IREL, desarollado en Javascript, Bootstrap 4, PHP y MySQL.<br>
+                      <a href="https://github.com/dleo86/estacionamiento" target="_blank">Link Aquí</a>
+                    </p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 ">
+              <div class="hovereffect">
+                  <img class="img-responsive" src="./img/fotos/productos_informaticos.png" alt="">
+                  <div class="overlay">
+                    <h2>GPI</h2>
+                    <p>
+                      Software para la Gestión de Productos Informáticos, desarollado en Javascript, Bootstrap 4, PHP y MySQL.<br>
+                      <a href="https://github.com/dleo86/GPI" target="_blank">Link Aquí</a>
+                    </p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Contacto -->
+      <div id="contacto" class="row align-items-start">
+        <div class="col-lg-12 col-md-10">
+          <div class="title">
+            <h2>Con<span>tac</span>to </h2>
+          </div><br>
+          <div class="row"> 
+            <div class="col-lg-3 col-md-4 ">
+              <i class="fab fa-linkedin-in fa-10x"></i>
+              <h4>LinkedIn</h4>
+              <p><strong>Mi red principal para la búsqueda de empleo. Esta red es, además, donde tengo mis contactos de trabajo.
+                <a href="https://www.linkedin.com/in/leandro-di-dio-7a01a5186/" target="_blank">Mi LinkedIn</a>
+              </strong></p>
+            </div>
+            <div class="col-lg-3 col-md-4 ">
+              <i class="fab fa-github fa-10x"></i>
+              <h4>Github</h4>
+              <p><strong>En Github pueden ver mis repositorios, algunos son programas básicos y otros desarrollos complejos utilizando 
+                diferentes tecnologías.<a href="https://github.com/dleo86" target="_blank">Mi Github</a></strong>
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-4 ">
+              <i class="fab fa-twitter fa-10x"></i>
+              <h4>Twitter</h4>
+              <p><strong><a href="https://twitter.com/leandrod86" target="_blank">Twitter</a> es una de mis redes en donde pueden ver mis traducciones del inglés al español de distintas noticias de 
+                seguridad informática que publico semanalmente en el sitio web <a href="https://www.cevicas.com/cevicas/news.html" target="_blank">Cevicas</a>
+              </strong></p>
+            </div>
+            <div class="col-lg-3 col-md-4 ">
+              <i class="fas fa-envelope-square fa-10x"></i>
+              <h4>Email</h4>
+              <p><strong>Pueden contactarme a través de mi email: dleo86@gmail.com o a través de mi celular: 291-4378724
+              </strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <!-- footer -->
+    <footer class="site-footer" style="background-color: #08252b;" id="pie">
+      <div class="footer-inner" style="background-color: #08252b">
+        <div class="row align-items-start" style="background-color: #08252b">
+          <p id="parrafo">
+          Desarrollado por: Leandro Di Dio - <span class="date"> </span> Copyright &copy;<br>
+          Cel: (291)4378724
+          </p>
+        </div>
+    </div>
+  </footer>
+    <!-- back to top button -->
+    <a href="#inicio" class="scroll-link top-link">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  
+    <!-- javascript -->
+    <script src="js/app.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
