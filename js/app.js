@@ -18,7 +18,7 @@ navToggle.addEventListener('click',function(){
     //alert(linksHeight);
     //console.log(linksHeight);
     if (conteinerHeight === 0) {
-        linksContainer.style.height = '${linksHeight}px';
+        linksContainer.style.height = `${linksHeight}px`;
         //console.log('altura = ' + linksContainer.style.height);
     }else {
         linksContainer.style.height = 0;
